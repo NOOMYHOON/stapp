@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+%pip freeze > requirements.xtx
 
 
 # 메인 타이틀을 중앙에 달아보기.
@@ -26,7 +27,6 @@ with st.sidebar:
     selectSpecies = st.multiselect('붓꽃 유형 선택 (:blue[다중]):', ['setosa','versicolor','virginica'])
     ''
     selectAlpha = st.slider('alpha 설정 : ',0.1, 1.0, 0.5)
-
 
 
 # 선택된 붓꽃 유형별 산점도로 시각화 표현

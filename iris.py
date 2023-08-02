@@ -1,4 +1,3 @@
-%pip3 freeze > requirements.xtx
 
 import streamlit as st
 import pandas as pd

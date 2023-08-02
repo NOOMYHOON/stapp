@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-%pip freeze > requirements.xtx
+%pip3 freeze > requirements.xtx
 
 
 # 메인 타이틀을 중앙에 달아보기.
